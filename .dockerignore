@@ -1,0 +1,6 @@
+.git
+__pycache__/
+*.pyc
+.env
+urbanshield.db
+.DS_Store
