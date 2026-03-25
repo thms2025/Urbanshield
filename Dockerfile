@@ -4,8 +4,6 @@ FROM python:3.11-slim
 RUN apt-get update && apt-get install -y \
     build-essential \
     curl \
-    libgl1-mesa-glx \
-    libglib2.0-0 \
     && rm -rf /var/lib/apt/lists/*
 
 # Set up a new user called "user" with user ID 1000 (Required by Hugging Face)
